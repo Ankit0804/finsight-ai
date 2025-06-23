@@ -1,0 +1,13 @@
+### Example GET request
+GET http://localhost:8080/api/user
+
+
+
+### Example POST request
+POST http://localhost:8080/api/user
+Content-Type: application/json
+
+{
+    "username": "Ankit",   
+    "email": "an.ankitkumar@gmail.com"
+}
