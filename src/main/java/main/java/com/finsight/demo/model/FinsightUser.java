@@ -13,6 +13,7 @@ public class FinsightUser {
     private Long id;
     private String username;
     private String email;
+    private String password;
 
 
     public FinsightUser() {
@@ -47,6 +48,15 @@ public class FinsightUser {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
 
     @Override
     public int hashCode() {
@@ -84,5 +94,6 @@ public class FinsightUser {
             return false;
         return true;
     }
+
 
 }
